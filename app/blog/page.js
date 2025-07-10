@@ -2,7 +2,7 @@
 "use client";
 
 import { personalData } from "@/utils/data/personal-data";
-import BlogCard from "../components/homepage/blog/blog-card";
+// import BlogCard from "../components/homepage/blog/blog-card";
 import dynamic from "next/dynamic"; 
 const BlogCard = dynamic(
   () => import("../components/homepage/blog/blog-card"),
